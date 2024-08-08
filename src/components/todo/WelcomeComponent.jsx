@@ -8,7 +8,7 @@ import { useAuth } from './security/AuthContext'
 
 function WelcomeComponent() {
 
-    const { username } = useParams()    // here used the useParam() hook
+    const { username } = useParams()    // here used the useParam() hook  to retrieve the username dynamically from the url
 
     const [message, setMessage] = useState(null)
 
